@@ -1,0 +1,3 @@
+C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/cmake-build-debug/CMakeFiles/OopBasicsIntroductionToProgrammingPatterns.dir
+C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir

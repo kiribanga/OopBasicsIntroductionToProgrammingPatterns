@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OopBasicsIntroductionToProgrammingPatterns"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OopBasicsIntroductionToProgrammingPatterns">
+				<Option output="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/cmake-build-debug/OopBasicsIntroductionToProgrammingPatterns.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 OopBasicsIntroductionToProgrammingPatterns"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OopBasicsIntroductionToProgrammingPatterns/fast">
+				<Option output="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/cmake-build-debug/OopBasicsIntroductionToProgrammingPatterns.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 OopBasicsIntroductionToProgrammingPatterns/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Cavalry/Cavalry.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Cavalry/Knight.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Cavalry/Knight.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Cavalry/SpearRider.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Cavalry/SpearRider.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Factory/ArmyFactory.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Factory/DefendedArmyFactory.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Factory/DefendedArmyFactory.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Factory/SimpleArmyFactory.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Factory/SimpleArmyFactory.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Fusiliery/Arbalester.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Fusiliery/Arbalester.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Fusiliery/Archer.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Fusiliery/Archer.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Fusiliery/Fusiliery.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Infantry/Halberdier.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Infantry/Halberdier.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Infantry/Infantry.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Infantry/Warrior.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Infantry/Warrior.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Unite.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/example.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/example1.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/example2.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/example3.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/main.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/screen.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/screen.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

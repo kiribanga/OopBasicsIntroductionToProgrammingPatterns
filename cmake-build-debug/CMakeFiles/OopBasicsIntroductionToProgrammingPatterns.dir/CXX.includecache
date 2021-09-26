@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/example.h
+
+C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/main.cpp
+iostream
+-
+cstdlib
+-
+example.h
+C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/example.h
+screen.h
+C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/screen.h
+
+C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/screen.h
+
