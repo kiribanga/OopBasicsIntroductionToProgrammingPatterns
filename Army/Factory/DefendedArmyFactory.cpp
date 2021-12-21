@@ -1,19 +1,15 @@
 #include "DefendedArmyFactory.h"
-#include "../Fusiliery/Arbalester.h"
-#include "../Infantry/Halberdier.h"
-#include "../Cavalry/Knight.h"
-#include <iostream>
 
-using namespace std;
+DefendedArmyFactory::DefendedArmyFactory(){}
 
-Fusiliery *DefendedArmyFactory::createFusilier() {
-    return new Arbalester;
-}
-
-Infantry *DefendedArmyFactory::createInfantryman() {
+Halberdier *DefendedArmyFactory::createInfantryman(){
     return new Halberdier;
 }
 
-Cavalry *DefendedArmyFactory::createCavalier() {
+Arbalester *DefendedArmyFactory::createFusilier() {
+    return new Arbalester;
+}
+
+Knight *DefendedArmyFactory::createCavalier() {
     return new Knight;
 }

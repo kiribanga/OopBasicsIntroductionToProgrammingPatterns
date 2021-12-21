@@ -1,0 +1,12 @@
+#ifndef OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_PLATEARMOR_H
+#define OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_PLATEARMOR_H
+
+#include "Armor.h"
+
+class PlateArmor : public Armor {
+public:
+    static int defend(int damage, DamageType damageType);
+};
+
+
+#endif //OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_PLATEARMOR_H

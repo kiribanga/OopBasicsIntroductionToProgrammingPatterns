@@ -2,16 +2,19 @@
 #define OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_SIMPLEARMYFACTORY_H
 
 #include "ArmyFactory.h"
+#include "../Infantry/Warrior.h"
+#include "../Fusiliery/Archer.h"
+#include "../Cavalry/SpearRider.h"
 
 class SimpleArmyFactory : public ArmyFactory {
-private:
-
 public:
-    Infantry *createInfantryman() override;
+    SimpleArmyFactory();
 
-    Fusiliery *createFusilier() override;
+    Warrior *createInfantryman() override;
 
-    Cavalry *createCavalier() override;
+    Archer *createFusilier() override;
+
+    SpearRider *createCavalier() override;
 };
 
 

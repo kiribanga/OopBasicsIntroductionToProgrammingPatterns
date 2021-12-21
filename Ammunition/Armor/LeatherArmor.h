@@ -1,0 +1,12 @@
+#ifndef OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_LEATHERARMOR_H
+#define OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_LEATHERARMOR_H
+
+#include "Armor.h"
+
+class LeatherArmor : public Armor {
+public:
+    static int defend(int damage, DamageType damageType);
+};
+
+
+#endif //OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_LEATHERARMOR_H

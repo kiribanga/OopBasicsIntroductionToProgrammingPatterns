@@ -4,21 +4,19 @@
 #include "Infantry.h"
 
 class Halberdier : public Infantry {
-private:
-    static std::string name;
+protected:
+    char letter = 'H';
+    char color = bright_grey;
 public:
-    Halberdier() {
-        health = 15;
-        damage = 15;
-        armor = 5;
-        speed = 3;
-    }
+    static const int speed;
+    static const int maxHealth;
+    static const int maxSize;
+    static const std::string name;
+    static const Armor *armor;
+    static const Weapon *firstWeapon;
+    static const Weapon *secondWeapon;
 
-    void move() override;
-
-    void fight() override;
-
-    void protect() override;
+    Halberdier();
 };
 
 

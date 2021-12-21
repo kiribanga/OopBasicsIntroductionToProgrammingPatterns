@@ -1,18 +1,13 @@
 #include "Arbalester.h"
-#include <iostream>
 
 using namespace std;
 
-string Arbalester::name = "Arbalester";
+const int Arbalester::speed = 3;
+const int Arbalester::maxHealth = 19;
+const int Arbalester::maxSize = 10;
+const std::string Arbalester::name = "Arbalester";
 
-void Arbalester::move() {
-    cout << name << " moves on" << endl;
-}
-
-void Arbalester::fight() {
-    cout << name << " fights" << endl;
-}
-
-void Arbalester::shoot() {
-    cout << name << " shoots" << endl;
+Arbalester::Arbalester(){
+    health = maxHealth;
+    squadSize = maxSize;
 }

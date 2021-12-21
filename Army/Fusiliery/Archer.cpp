@@ -1,18 +1,15 @@
 #include "Archer.h"
-#include <iostream>
 
 using namespace std;
 
-string Archer::name = "Archer";
+const int Archer::speed = 3;
+const int Archer::maxHealth = 15;
+const int Archer::maxSize = 10;
+const std::string Archer::name = "Archer";
 
-void Archer::move() {
-    cout << name << " moves on" << endl;
-}
-
-void Archer::fight() {
-    cout << name << " fights" << endl;
-}
-
-void Archer::shoot() {
-    cout << name << " shoots" << endl;
+Archer::Archer() {
+    health = maxHealth;
+    squadSize = maxSize;
+    letter = 'A';
+    color = bright_cyan;
 }

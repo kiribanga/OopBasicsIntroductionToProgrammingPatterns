@@ -1,19 +1,15 @@
 #include "SimpleArmyFactory.h"
-#include "../Fusiliery/Archer.h"
-#include "../Infantry/Warrior.h"
-#include "../Cavalry/SpearRider.h"
-#include <iostream>
 
-using namespace std;
+SimpleArmyFactory::SimpleArmyFactory(){}
 
-Fusiliery *SimpleArmyFactory::createFusilier() {
-    return new Archer;
-}
-
-Infantry *SimpleArmyFactory::createInfantryman() {
+Warrior *SimpleArmyFactory::createInfantryman() {
     return new Warrior;
 }
 
-Cavalry *SimpleArmyFactory::createCavalier() {
+Archer *SimpleArmyFactory::createFusilier() {
+    return new Archer;
+}
+
+SpearRider *SimpleArmyFactory::createCavalier() {
     return new SpearRider;
 }

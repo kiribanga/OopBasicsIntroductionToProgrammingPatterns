@@ -2,16 +2,19 @@
 #define OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_DEFENDEDARMYFACTORY_H
 
 #include "ArmyFactory.h"
+#include "../Infantry/Halberdier.h"
+#include "../Fusiliery/Arbalester.h"
+#include "../Cavalry/Knight.h"
 
 class DefendedArmyFactory : public ArmyFactory {
-private:
-
 public:
-    Infantry *createInfantryman() override;
+    DefendedArmyFactory();
 
-    Fusiliery *createFusilier() override;
+    Halberdier *createInfantryman() override;
 
-    Cavalry *createCavalier() override;
+    Arbalester *createFusilier() override;
+
+    Knight *createCavalier() override;
 };
 
 

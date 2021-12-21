@@ -2,25 +2,20 @@
 #define OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_ARCHER_H
 
 #include "Fusiliery.h"
+#include "../../Ammunition/Armor/LeatherArmor.h"
+#include "../../Ammunition/Weapon/Sword.h"
 
 class Archer : public Fusiliery {
-private:
-    static std::string name;
 public:
+    static const int speed;
+    static const int maxHealth;
+    static const int maxSize;
+    static const std::string name;
+    static const LeatherArmor *armor;
+    static const Weapon *firstWeapon;
+    static const Sword *secondWeapon;
 
-
-    Archer() {
-        health = 15;
-        damage = 15;
-        armor = 5;
-        speed = 3;
-    }
-
-    void move() override;
-
-    void fight() override;
-
-    void shoot() override;
+    Archer();
 };
 
 #endif //OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_ARCHER_H

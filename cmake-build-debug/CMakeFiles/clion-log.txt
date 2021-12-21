@@ -1,1 +1,4 @@
-Visual Studio not found at: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community Configure Disable profile
+C:\Users\k-k-1\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\k-k-1\Documents\GitHub\OopBasicsIntroductionToProgrammingPatterns
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/cmake-build-debug

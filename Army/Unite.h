@@ -3,22 +3,35 @@
 
 #include <iostream>
 #include <string>
+#include "../Ammunition/Armor/Armor.h"
+#include "../Ammunition/Weapon/Weapon.h"
+
+enum Color {
+    grey, red, green, yellow, blue, magenta, cyan, white, bright_grey, bright_red, bright_green, bright_yellow, bright_blue, bright_magenta, bright_cyan, bright_white
+};
 
 class Unite {
 protected:
-    int armor;
+    int squadSize;
     int health;
-    int damage;
-    int speed;
-    static std::string name;
+    char letter;
+    Color color;
 public:
-    virtual void move() = 0;
+    static const int speed;
+    static const int maxHealth;
+    static const int maxSize;
+    static const std::string name;
+    static const Armor *armor;
+    static const Weapon *firstWeapon;
+    static const Weapon *secondWeapon;
 
-    virtual void fight() = 0;
+    virtual void move() final;
 
-    friend std::ostream &operator<<(std::ostream &out, const Unite &unite){
-        out<<' ';
-    };
+    virtual void fight(Unite*) final;
+
+    virtual int fight(int) final;
+
+    friend std::ostream &operator<<(std::ostream &out, const Unite &unite);
 };
 
 

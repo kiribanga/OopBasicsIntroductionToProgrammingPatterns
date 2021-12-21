@@ -2,23 +2,23 @@
 #define OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_WARRIOR_H
 
 #include "Infantry.h"
+#include "../../Ammunition/Armor/ChainArmor.h"
+#include "../../Ammunition/Weapon/Sword.h"
 
 class Warrior : public Infantry {
-private:
-    static std::string name;
+protected:
+    char letter = 'W';
+    char color = red;
 public:
-    Warrior() {
-        health = 15;
-        damage = 15;
-        armor = 5;
-        speed = 3;
-    }
+    static const int speed;
+    static const int maxHealth;
+    static const int maxSize;
+    static const std::string name;
+    static const ChainArmor *armor;
+    static const Sword *firstWeapon;
+    static const Sword *secondWeapon;
 
-    void move() override;
-
-    void fight() override;
-
-    void protect() override;
+    Warrior();
 };
 
 

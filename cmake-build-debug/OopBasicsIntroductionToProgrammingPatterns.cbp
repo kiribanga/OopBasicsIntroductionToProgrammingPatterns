@@ -84,6 +84,42 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Ammunition/Armor/Armor.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Ammunition/Armor/ChainArmor.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Ammunition/Armor/ChainArmor.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Ammunition/Armor/LeatherArmor.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Ammunition/Armor/LeatherArmor.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Ammunition/Armor/PlateArmor.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Ammunition/Armor/PlateArmor.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Ammunition/DamageType.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Ammunition/Weapon/Sword.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Ammunition/Weapon/Sword.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Ammunition/Weapon/Weapon.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Cavalry/Cavalry.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
 		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Cavalry/Cavalry.h">
 			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
 		</Unit>
@@ -126,6 +162,9 @@
 		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Fusiliery/Archer.h">
 			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
 		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Fusiliery/Fusiliery.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
 		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Fusiliery/Fusiliery.h">
 			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
 		</Unit>
@@ -133,6 +172,9 @@
 			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
 		</Unit>
 		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Infantry/Halberdier.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Infantry/Infantry.cpp">
 			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
 		</Unit>
 		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Infantry/Infantry.h">
@@ -144,7 +186,16 @@
 		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Infantry/Warrior.h">
 			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
 		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Unite.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
 		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Army/Unite.h">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Terrain/Map.cpp">
+			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
+		</Unit>
+		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/Terrain/Map.h">
 			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
 		</Unit>
 		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/example.h">
@@ -160,12 +211,6 @@
 			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
 		</Unit>
 		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/main.cpp">
-			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
-		</Unit>
-		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/screen.cpp">
-			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
-		</Unit>
-		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/screen.h">
 			<Option target="OopBasicsIntroductionToProgrammingPatterns"/>
 		</Unit>
 		<Unit filename="C:/Users/k-k-1/Documents/GitHub/OopBasicsIntroductionToProgrammingPatterns/CMakeLists.txt">

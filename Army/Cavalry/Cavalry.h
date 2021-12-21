@@ -5,7 +5,7 @@
 
 class Cavalry : public Unite {
 public:
-    virtual void charge() = 0;
+    virtual void charge(Unite* enemy) final;
 };
 
 

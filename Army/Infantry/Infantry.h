@@ -5,7 +5,7 @@
 
 class Infantry : public Unite {
 public:
-    virtual void protect() = 0;
+    virtual void protect(Unite* enemy) final;
 };
 
 

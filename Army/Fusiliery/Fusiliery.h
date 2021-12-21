@@ -6,7 +6,7 @@
 
 class Fusiliery : public Unite {
 public:
-    virtual void shoot() = 0;
+    virtual void shoot(Unite*) final;
 };
 
 

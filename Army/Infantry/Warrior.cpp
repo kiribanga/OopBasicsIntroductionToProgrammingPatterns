@@ -1,18 +1,13 @@
 #include "Warrior.h"
-#include <iostream>
 
 using namespace std;
 
-string Warrior::name = "Warrior";
+const int Warrior::speed = 3;
+const int Warrior::maxHealth = 15;
+const int Warrior::maxSize = 20;
+const string Warrior::name = "Warrior";
 
-void Warrior::move() {
-    cout << name << " moves on" << endl;
-}
-
-void Warrior::fight() {
-    cout << name << " fights" << endl;
-}
-
-void Warrior::protect() {
-    cout << name << " protects" << endl;
+Warrior::Warrior(){
+    health = maxHealth;
+    squadSize = maxSize;
 }

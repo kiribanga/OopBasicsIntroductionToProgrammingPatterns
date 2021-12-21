@@ -1,18 +1,13 @@
 #include "SpearRider.h"
-#include <iostream>
 
 using namespace std;
 
-string SpearRider::name = "Spear rider";
+const int SpearRider::speed = 3;
+const int SpearRider::maxHealth = 15;
+const int SpearRider::maxSize = 15;
+const string SpearRider::name = "Spear rider";
 
-void SpearRider::move() {
-    cout << name << " moves on" << endl;
-}
-
-void SpearRider::fight() {
-    cout << name << " fights" << endl;
-}
-
-void SpearRider::charge() {
-    cout << name << " charges" << endl;
+SpearRider::SpearRider(){
+    health = maxHealth;
+    squadSize = maxSize;
 }

@@ -1,0 +1,12 @@
+#ifndef OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_CHAINARMOR_H
+#define OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_CHAINARMOR_H
+
+#include "Armor.h"
+
+class ChainArmor : public Armor {
+public:
+    static int defend(int damage, DamageType damageType);
+};
+
+
+#endif //OOPBASICSINTRODUCTIONTOPROGRAMMINGPATTERNS_CHAINARMOR_H
